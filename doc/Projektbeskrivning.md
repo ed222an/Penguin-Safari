@@ -1,29 +1,25 @@
+# Penguin-Safari
+Projektansvarig: 
+[Emil Dannberger](https://github.com/ed222an)
 
-# Projektnamn här
-Projektmedlemmar: 
-[tstjostudent](https://github.com/tstjostudent), [xx222yy](https://github.com/tstjostudent), [yy222xx](https://github.com/tstjostudent)
+[Exekverbar version av projektet](http://ed222an.github.io/Projektet)
 
-*Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
-
-[Exekverbar version av projektet](http://tstjostudent.github.io/Projektet)
-
-*Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
+*Denna länk kommer att börja fungera då jag börjat editera den faktiska webbsidan.*
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+*Jag vill skapa en webbsida för ett påhittat företag som bedriver pingvin-safari. Detta för att testa, utveckla och utmana mig själv och mina kunskaper i marknadsföring. Jag tror att det kan vara lärorikt att försöka skapa en seriös och snygg sida som man sedan kan använda som framtida referens. Sidan ska vara på engelska.*
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+*De tekniker som kommer användas är huvudsakligen HTML5 samt CSS/CSS3. Inga ramverk kommer att användas.*
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+*Jag kommer att använda mig utav formulär för, ex. bokning utav turer, som inte kommer att vara riktiga. D.v.s. att man kommer att få fylla i sina uppgifter utan att dessa sparas eller behandlas på något sätt.*
 
 ## Förstudier
 *Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
 
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+## Mål med projektet
+*Mitt mål är att skapa en visuellt snygg och användarvänlig sida som framställs som professionell och trovärdig.*
 
 ## Tidsplanering
-*Länka till tidsplaneringen här, eller fäll in som en bild.*
-
+[Tidsplaneringen - Google drive] (https://docs.google.com/spreadsheet/ccc?key=0An39O4_7Rn91dFNCdFlKcFhIZzZUSU5mVUhEdzJJQlE&usp=sharing)
