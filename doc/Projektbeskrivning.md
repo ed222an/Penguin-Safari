@@ -2,7 +2,7 @@
 Projektansvarig: 
 [Emil Dannberger](https://github.com/ed222an)
 
-[Exekverbar version av projektet](http://ed222an.github.io/Projektet)
+[Exekverbar version av projektet](https://c9.io/ed222an/penguin-safari/workspace/index.html)
 
 *Denna länk kommer att börja fungera då jag börjat editera den faktiska webbsidan.*
 
