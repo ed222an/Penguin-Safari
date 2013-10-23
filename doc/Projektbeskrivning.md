@@ -15,9 +15,6 @@ Projektansvarig:
 ## Begränsningar
 *Jag kommer att använda mig utav formulär för, ex. bokning utav turer, som inte kommer att vara riktiga. D.v.s. att man kommer att få fylla i sina uppgifter utan att dessa sparas eller behandlas på något sätt.*
 
-## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
 ## Mål med projektet
 *Mitt mål är att skapa en visuellt snygg och användarvänlig sida som framställs som professionell och trovärdig.*
 
