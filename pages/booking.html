@@ -35,8 +35,135 @@
             <!--Page content-->
             <h3>Tours &amp; Prices</h3>
             
+            <table border="1">
+            <thead>
+            <tr>
+                <th>Tour</th>
+                <th>Adult Price</th>
+                <th>Child</th>
+            </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">2013's prices &amp; tours.</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Antarctic Penguins!</td>
+                    <td>$13</td>
+                    <td>$7</td>
+                </tr>
+                <tr>
+                    <td>Hot Penguins!</td>
+                    <td>$18</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Penguins &amp; Polar Bears, who would have thought!?</td>
+                    <td>$18</td>
+                    <td>$10</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Activity</th>
+                <th>Adult Price</th>
+                <th>Child</th>
+            </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="3">2013's activities.</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Attraction-pass</td>
+                    <td>$12</td>
+                    <td>$8</td>
+                </tr>
+                <tr>
+                    <td>Day-pass</td>
+                    <td>$30</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>Penguin Rollercoaster</td>
+                    <td>$4</td>
+                    <td>$2</td>
+                </tr>
+                <tr>
+                    <td>Tour-pass</td>
+                    <td>$20</td>
+                    <td>$10</td>
+                </tr>
+                <tr>
+                    <td>Water park access</td>
+                    <td>$10</td>
+                    <td>$5</td>
+                </tr>
+            </tbody>
+        </table>
+        
             <h3>Book An Activity</h3>
             
+            <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                    <fieldset>
+                        <legend>Booking</legend>
+                        <p>Tours:
+                            <select class="dropdownlist" name="tours">
+                                <option>Antarctic Penguins!</option>
+                                <option>Hot Penguins!</option>
+                                <option>Penguins &amp; Polar Bears, who would have thought!?</option>
+                            </select>
+                        </p>
+                        <p>Activities:
+                            <select class="dropdownlist" name="activities">
+                                <option>Attraction-pass</option>
+                                <option>Day-pass</option>
+                                <option>Penguin Rollercoaster</option>
+                                <option>Tour-pass</option>
+                                <option>Water park-access</option>
+                            </select>
+                        </p>
+                        <p>Number of adults:
+                            <select class="dropdownlist" name="adults">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>>10</option>
+                            </select>
+                        </p>
+                        <p>Number of children:
+                            <select class="dropdownlist" name="children">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>>10</option>
+                            </select>
+                        </p>
+                    </fieldset>
+                </form>
             <h3>Whera Are We Located?</h3>
         </main>
         
