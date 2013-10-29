@@ -1,6 +1,6 @@
 @media only screen and (max-device-width: 480px){
         
-        /* GENERELLA EGENSKAPER */
+        /* GENERAL ATTRIBUTES */
         body
         {
             background-color:antiquewhite;
@@ -10,15 +10,25 @@
         {
             list-style-type:none;
         }
+        
+        h2
+        {
+            font-size:400%;
+            margin-left:80px;
+            margin-right:100px;
+            border-bottom:4px solid black;
+        }
 		
-        /* HEADERN */
+        /* HEADER */
         header
         {
+            margin-top:-70px;
+            margin-bottom:80px;
             font-size:320%;
             text-align:center;
         }
 		
-		/* NAVIGATIONSFÄLTET */
+		/* NAVIGATIONLIST */
 		nav
 		{
 		    margin-top:-60px;
@@ -26,7 +36,7 @@
 		nav li
 		{
 		    text-align:center;
-		    border:3px solid black;
+		    border:5px solid black;
 		    background-color:#FA6F0C;
 		    font-size:550%;
 		    font-weight:bold;
@@ -38,7 +48,6 @@
 			-moz-border-radius: 20px;
 			-webkit-border-radius: 20px;
 		}
-		
 		nav li a
 		{
 		    text-decoration:none;
@@ -46,12 +55,35 @@
             color:black;
 		}
 		
-		/* CONTENT */
+		/* MAIN */
 		main
 		{
-		    
+		    clear:both;
 		}
 		
+		/* ARTICLE */
+		article
+		{
+		    margin:20px;
+		    border:5px solid black;
+		    border-radius: 20px;
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+			background-color:#FA6F0C;
+		}
+		article h3, h4
+		{
+		    padding-left:40px;
+		}
+		article p
+		{
+		    font-size:15px;
+		    padding-bottom:40px;
+		    margin-left:20px;
+            margin-right:20px;
+            border-bottom:4px solid black;
+		    
+		}
 		
 		/* FOOTER */
 		
