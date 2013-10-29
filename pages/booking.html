@@ -3,212 +3,211 @@
     <head>
         <meta charset="utf-8" />
         <title>Penguin-Safari</title><!--Domaintitle-->
-        <link rel="stylesheet" href="css/style.css" media="screen" />
-        <link rel="stylesheet" href="css/mobile.css" />
-        <link rel="stylesheet" href="css/print.css" media="print" />
+        <link rel="stylesheet" href="../css/style.css" media="screen" />
+        <link rel="stylesheet" href="../css/mobile.css" />
+        <link rel="stylesheet" href="../css/print.css" media="print" />
         
-        <link rel="icon" type="image/x-icon" href="css/pics/loggan.png" />
-        <link rel="apple-touch-icon" href="css/pics/loggan.png"/>
+        <link rel="icon" type="image/x-icon" href="../css/pics/loggan.png" />
+        <link rel="apple-touch-icon" href="../css/pics/loggan.png"/>
     </head>
     
     <body>
-    
-        <header>
-            <h1>Welcome to the fantastic world of Penguin-Safari!</h1>
-        </header>
-        
-        <nav>
-            <!--Navigationlist with links to the other subpages-->
-            <ul>
-                <li><a id="home" href="../index.html">Home</a></li>
-                <li><a id="about" href="about.html">About us</a></li>
-                <li><a id="tours" href="tours.html">Tours &amp; Events</a></li>
-                <li><a id="booking" href="booking.html" class="active">Booking</a></li>
-                <li><a id="contact" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
-        <main>        
-            <!--Pagetitle-->
-            <h2>BOOKING</h2>
+        <div id="container">
+            <header>
+                <h1>Penguin-Safari!</h1>
+            </header>
             
-            <!--Page content-->
-            <h3>Tours &amp; Prices</h3>
+            <nav>
+                <!--Navigationlist with links to the other subpages-->
+                <ul>
+                    <li><a id="home" href="../index.html">Home</a></li>
+                    <li><a id="about" href="about.html">About us</a></li>
+                    <li><a id="activities" href="activities.html">Activities</a></li>
+                    <li><a id="booking" href="booking.html" class="active">Booking</a></li>
+                    <li><a id="contact" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
             
-            <h4>Listed below are our selection of tours and activities, along with the price for adults and children.</h4>
-            
-            <!--Table: Tours & prices-->
-            <table border="1">
-            <thead>
-            <tr>
-                <th>Tour</th>
-                <th>Adult Price</th>
-                <th>Child</th>
-            </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td colspan="3">2013's tours &amp; prices.</td>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td>Antarctic Penguins!</td>
-                    <td>$13</td>
-                    <td>$7</td>
-                </tr>
-                <tr>
-                    <td>Hot Penguins!</td>
-                    <td>$18</td>
-                    <td>$10</td>
-                </tr>
-                <tr>
-                    <td>Penguins &amp; Polar Bears, who would have thought!?</td>
-                    <td>$18</td>
-                    <td>$10</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <!--Table: Activities & prices-->
-        <table border="1">
-            <thead>
-            <tr>
-                <th>Activity</th>
-                <th>Adult Price</th>
-                <th>Child</th>
-            </tr>
-            </thead>
-            <tfoot>
-                <tr>
-                    <td colspan="3">2013's activities &amp; prices.</td>
-                </tr>
-            </tfoot>
-            <tbody>
-                <tr>
-                    <td>Attraction-pass</td>
-                    <td>$12</td>
-                    <td>$8</td>
-                </tr>
-                <tr>
-                    <td>Day-pass</td>
-                    <td>$30</td>
-                    <td>$15</td>
-                </tr>
-                <tr>
-                    <td>Penguin Rollercoaster</td>
-                    <td>$4</td>
-                    <td>$2</td>
-                </tr>
-                <tr>
-                    <td>Tour-pass</td>
-                    <td>$20</td>
-                    <td>$10</td>
-                </tr>
-                <tr>
-                    <td>Water park access</td>
-                    <td>$10</td>
-                    <td>$5</td>
-                </tr>
-            </tbody>
-        </table>
-        
-            <h3>Book An Activity</h3>
-            
-            <h4>Here you can book a tour/activity even before arriving at our park! Just fill out the form and we will confirm your order</h4>
-            
-            <!--Form: Booking-->
-            <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-                    <fieldset>
-                        <legend>Booking</legend>
-                        <p>Tours:
-                            <select class="dropdownlist" name="tours">
-                                <option>--Choose a tour--</option>
-                                <option>Antarctic Penguins!</option>
-                                <option>Hot Penguins!</option>
-                                <option>Penguins &amp; Polar Bears, who would have thought!?</option>
-                            </select>
-                        </p>
-                        <p>Activities:
-                            <select class="dropdownlist" name="activities">
-                                <option>--Choose an activity--</option>
-                                <option>Attraction-pass</option>
-                                <option>Day-pass</option>
-                                <option>Penguin Rollercoaster</option>
-                                <option>Tour-pass</option>
-                                <option>Water park-access</option>
-                            </select>
-                        </p>
-                        <p>Number of adults:
-                            <select class="dropdownlist" name="adults">
-                                <option>0</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                                <option>>10</option>
-                            </select>
-                        </p>
-                        <p>Number of children:
-                            <select class="dropdownlist" name="children">
-                                <option>0</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>6</option>
-                                <option>7</option>
-                                <option>8</option>
-                                <option>9</option>
-                                <option>10</option>
-                                <option>>10</option>
-                            </select>
-                            
-                    <fieldset>
-                        <legend>Customer information</legend>
-                        
-                        <p>Prefix:
-                            <select class="dropdownlist" name="prefix">
-                                <option>Mr.</option>
-                                <option>Mrs.</option>
-                                <option>Ms.</option>
-                            </select>
-                        </p>
-                        
-                        <p>Full name: <input type="text" class="formInputText" name="fullname" value="Last name, Surname"/></p>
-                        <p>E-mail address: <input type="text" class="formInputText" name="e-mail" value="Your e-mail address"/></p>
-                        <p>Message: <textarea class="textarea" name="Meddelande">Please type any eventual message here</textarea></p>
-                    </fieldset>
-                    
-                        </p>
-                        <input id="button" class="formInputButton" type="submit" value="Confirm booking" />
-                    </fieldset>
-                </form>
+            <main>        
+                <!--Pagetitle-->
+                <h2>BOOKING</h2>
                 
-            <h3>Whera Are We Located?</h3>
+                <!--Page content-->
+                <h3>Tours &amp; Prices</h3>
+                
+                <h4>Listed below are our selection of tours and activities, along with the price for adults and children.</h4>
+                
+                <!--Table: Tours & prices-->
+                <table border="1">
+                <thead>
+                <tr>
+                    <th>Tour</th>
+                    <th>Adult Price</th>
+                    <th>Child</th>
+                </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">2013's tours &amp; prices.</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Antarctic Penguins!</td>
+                        <td>$13</td>
+                        <td>$7</td>
+                    </tr>
+                    <tr>
+                        <td>Hot Penguins!</td>
+                        <td>$18</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Penguins &amp; Polar Bears, who would have thought!?</td>
+                        <td>$18</td>
+                        <td>$10</td>
+                    </tr>
+                </tbody>
+            </table>
             
-            <p>Our Penguin-Safari park is located in the south-western part of Fakeonia, on the address Fakedrive 32 outside the small
-                town of Fakersville. Our full address is as listed below to help you navigate to us!</p>
+            <!--Table: Activities & prices-->
+            <table border="1">
+                <thead>
+                <tr>
+                    <th>Activity</th>
+                    <th>Adult Price</th>
+                    <th>Child</th>
+                </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">2013's activities &amp; prices.</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>Attraction-pass</td>
+                        <td>$12</td>
+                        <td>$8</td>
+                    </tr>
+                    <tr>
+                        <td>Day-pass</td>
+                        <td>$30</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td>Penguin Rollercoaster</td>
+                        <td>$4</td>
+                        <td>$2</td>
+                    </tr>
+                    <tr>
+                        <td>Tour-pass</td>
+                        <td>$20</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Water park access</td>
+                        <td>$10</td>
+                        <td>$5</td>
+                    </tr>
+                </tbody>
+            </table>
             
-            <ul>
-                <li>Mailing adress: Penguin-Safari.Co</li>
-                <li>1234 Fakedrive 32</li>
-                <li>Fakersville</li>
-                <li>Fakeonia</li>
-            </ul>
+                <h3>Book An Activity</h3>
+                
+                <h4>Here you can book a tour/activity even before arriving at our park! Just fill out the form and we will confirm your order</h4>
+                
+                <!--Form: Booking-->
+                <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                        <fieldset>
+                            <legend>Booking</legend>
+                            <p>Tours:
+                                <select class="dropdownlist" name="tours">
+                                    <option>--Choose a tour--</option>
+                                    <option>Antarctic Penguins!</option>
+                                    <option>Hot Penguins!</option>
+                                    <option>Penguins &amp; Polar Bears, who would have thought!?</option>
+                                </select>
+                            </p>
+                            <p>Activities:
+                                <select class="dropdownlist" name="activities">
+                                    <option>--Choose an activity--</option>
+                                    <option>Attraction-pass</option>
+                                    <option>Day-pass</option>
+                                    <option>Penguin Rollercoaster</option>
+                                    <option>Tour-pass</option>
+                                    <option>Water park-access</option>
+                                </select>
+                            </p>
+                            <p>Number of adults:
+                                <select class="dropdownlist" name="adults">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>>10</option>
+                                </select>
+                            </p>
+                            <p>Number of children:
+                                <select class="dropdownlist" name="children">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>>10</option>
+                                </select>
+                                
+                            <fieldset>
+                                <legend>Customer information</legend>
+                                
+                                <p>Prefix:
+                                    <select class="dropdownlist" name="prefix">
+                                        <option>Mr.</option>
+                                        <option>Mrs.</option>
+                                        <option>Ms.</option>
+                                    </select>
+                                </p>
+                                
+                                <p>Full name: <input type="text" class="formInputText" name="fullname" value="Last name, Surname"/></p>
+                                <p>E-mail address: <input type="text" class="formInputText" name="e-mail" value="Your e-mail address"/></p>
+                                <p>Message: <textarea class="textarea" name="Meddelande">Please type any eventual message here</textarea></p>
+                            </fieldset>
+                        
+                            <input id="button" class="formInputButton" type="submit" value="Confirm booking" />
+                        </fieldset>
+                    </form>
+                    
+                <h3>Whera Are We Located?</h3>
+                
+                <p>Our Penguin-Safari park is located in the south-western part of Fakeonia, on the address Fakedrive 32 outside the small
+                    town of Fakersville. Our full address is as listed below to help you navigate to us!</p>
+                
+                <ul>
+                    <li>Mailing adress: Penguin-Safari.Co</li>
+                    <li>1234 Fakedrive 32</li>
+                    <li>Fakersville</li>
+                    <li>Fakeonia</li>
+                </ul>
+                
+            </main>
             
-        </main>
-        
-        <footer>
-            <h4>Emil Dannberger is responsible for everything on this page</h4>
-            <p>Pictures on this page are taken from <a href=http://freepenguinpictures.com>http://freepenguinpictures.com/</a></p>
-        </footer>
-        
+            <footer>
+                <h4>Emil Dannberger is responsible for everything on this page</h4>
+                <p>Pictures on this page are taken from <a href=http://freepenguinpictures.com>http://freepenguinpictures.com/</a></p>
+            </footer>
+        </div>
     </body>
