@@ -23,6 +23,13 @@
             margin-top:50px;
             box-shadow: 10px 10px 50px 10px #001E28;
         }
+        
+        table
+        {
+            font-size:300%;
+            margin:20px;
+            background-color:#EDF3F5;
+        }
 		
 		/* PHOTOS */
 		.pictextcenter
