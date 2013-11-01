@@ -23,12 +23,49 @@
             margin-top:50px;
             box-shadow: 10px 10px 50px 10px #001E28;
         }
+        /* FORM */
+        form
+        {
+            
+        }
         
+        
+        /* TABLE */
         table
         {
+            border-collapse:collapse;
             font-size:300%;
-            margin:20px;
+            margin:30px;
+        }
+        th
+        {
+            background-color:black;
+            color:white;
+            padding:20px;
+            border-radius: 20px;
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+        }
+        tbody td
+        {
+            padding:20px;
+        }
+        tfoot td
+        {
+            background-color:black;
+            color:white;
+            padding:20px;
+            border-radius: 20px;
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+        }
+        tr
+        {
             background-color:#EDF3F5;
+        }
+        tr:nth-child(even)
+        {
+            background-color:lightblue;
         }
 		
 		/* PHOTOS */
