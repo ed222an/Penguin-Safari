@@ -23,12 +23,27 @@
             margin-top:50px;
             box-shadow: 10px 10px 50px 10px #001E28;
         }
-        /* FORM */
-        form
-        {
-            
-        }
         
+        /* FORM */
+		form
+		{
+		    font-size:300%;
+		}
+		select
+		{
+		    color:white;
+		    background-color:black;
+		    font-size:50%;
+		    margin:20px;
+		}
+		#tours
+		{
+		    width:30%;
+		}
+		.drop
+		{
+		    font-size:120%;
+		}
         
         /* TABLE */
         table

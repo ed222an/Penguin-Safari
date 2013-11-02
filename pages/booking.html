@@ -124,15 +124,17 @@
                     <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
                         <fieldset>
                             <legend>Booking</legend>
-                            <p>Tours:
+                            
+                            <div class="drop">Tours: 
                                 <select class="dropdownlist" name="tours">
                                     <option>--Choose a tour--</option>
                                     <option>Antarctic Penguins!</option>
                                     <option>Hot Penguins!</option>
                                     <option>Penguins &amp; Polar Bears, who would have thought!?</option>
                                 </select>
-                            </p>
-                            <p>Activities:
+                            </div>
+                            
+                            <div class="drop">Activities: 
                                 <select class="dropdownlist" name="activities">
                                     <option>--Choose an activity--</option>
                                     <option>Attraction-pass</option>
@@ -141,8 +143,9 @@
                                     <option>Tour-pass</option>
                                     <option>Water park-access</option>
                                 </select>
-                            </p>
-                            <p>Number of adults:
+                            </div>
+                            
+                            <div class="drop">Number of adults:
                                 <select class="dropdownlist" name="adults">
                                     <option>0</option>
                                     <option>1</option>
@@ -157,8 +160,9 @@
                                     <option>10</option>
                                     <option>>10</option>
                                 </select>
-                            </p>
-                            <p>Number of children:
+                            </div>
+                            
+                            <div>Number of children:
                                 <select class="dropdownlist" name="children">
                                     <option>0</option>
                                     <option>1</option>
@@ -173,6 +177,7 @@
                                     <option>10</option>
                                     <option>>10</option>
                                 </select>
+                            </div>
                                 
                             <fieldset>
                                 <legend>Customer information</legend>
@@ -188,6 +193,7 @@
                                 <p>Full name: <input type="text" class="formInputText" name="fullname" value="Last name, Surname"/></p>
                                 <p>E-mail address: <input type="text" class="formInputText" name="e-mail" value="Your e-mail address"/></p>
                                 <p>Message: <textarea class="textarea" name="Meddelande">Please type any eventual message here</textarea></p>
+                                
                             </fieldset>
                         
                             <input id="button" class="formInputButton" type="submit" value="Confirm booking" />
