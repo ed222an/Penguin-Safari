@@ -1,11 +1,14 @@
 @media only screen and (max-device-width: 480px){
         
         /* GENERAL ATTRIBUTES */
-        body
+        #container
         {
+            margin:0;
+            width:auto; height:auto;
             background-color:antiquewhite;
             font-family:"Verdana", Geneva, sans-serif;
         }
+        
         ul
         {
             list-style-type:none;
@@ -14,6 +17,7 @@
         h2
         {
             font-size:400%;
+            padding-top:0;
             margin-left:80px;
             margin-right:100px;
             border-bottom:4px solid black;
@@ -27,39 +31,58 @@
         /* FORM */
 		form
 		{
+		    margin:30px;
 		    font-size:300%;
+		}
+		fieldset
+		{
+		    border:none;
+		    margin-top:40px;
+		}
+		legend
+		{
+		    font-size:100%;
+		    background-color:black;
+		    color:white;
+		    padding-top:20px;
+		    padding-bottom:20px;
+		}
+		#firstlegend
+		{
+		    padding-left:300px;
+		    padding-right:300px;
+		    text-align:center;
+		}
+		#secondlegend
+		{
+		    padding-left:100px;
+		    padding-right:100px;
+		    text-align:center;
 		}
 		select
 		{
 		    color:white;
 		    background-color:black;
-		    font-size:50%;
 		    margin:20px;
 		}
-		#tours
-		{
-		    width:30%;
-		}
-		.drop
+		#textfields p
 		{
 		    font-size:120%;
 		}
-        
-        /* TABLE */
+		
+		/* TABLE */
         table
         {
+            float:none;
             border-collapse:collapse;
             font-size:300%;
             margin:30px;
         }
         th
         {
-            background-color:black;
             color:white;
+            background-color:black;
             padding:20px;
-            border-radius: 20px;
-			-moz-border-radius: 20px;
-			-webkit-border-radius: 20px;
         }
         tbody td
         {
@@ -70,9 +93,6 @@
             background-color:black;
             color:white;
             padding:20px;
-            border-radius: 20px;
-			-moz-border-radius: 20px;
-			-webkit-border-radius: 20px;
         }
         tr
         {
@@ -83,7 +103,89 @@
             background-color:lightblue;
         }
 		
-		/* PHOTOS */
+		/* CLASSES */
+		
+		/* generic classes */
+		.backgroundcolor
+		{
+		    background-color:#EDF3F5;
+		}
+		
+		/* form-related */
+		.formInputText
+		{
+		    font-size:80%;
+		    width:100%;
+		}
+		.textarea
+		{
+		    font-size:80%;
+		    width:100%;
+		}
+		.drop
+		{
+		    font-size:120%;
+		    text-align:center;
+		    background-color:lightblue;
+		}
+		.dropdownlist
+		{
+		    font-size:80%;
+		}
+		.formInputButton
+		{
+		    font-size:200%;
+		    padding-right:50px;
+		    padding-left:0;
+		    margin-left:0;
+		    background-color:#3FC44A;
+		    box-shadow: 5px 5px 40px 10px #001E28;
+		}
+		/* rouded corners */
+		.corners
+		{
+		    border-radius: 20px;
+			-moz-border-radius: 20px;
+			-webkit-border-radius: 20px;
+		}
+		.topcorners
+		{
+		    border-top-left-radius:20px;
+		    border-top-right-radius:20px;
+			-moz-border-top-right-radius:20px;
+			-webkit-border-top-right-radius:20px;
+		    -moz-border-top-left-radius:20px;
+			-webkit-border-top-left-radius:20px;
+		}
+		.bottomcorners
+		{
+		    border-bottom-left-radius:20px;
+		    border-bottom-right-radius:20px;
+			-moz-border-bottom-right-radius:20px;
+			-webkit-border-bottom-right-radius:20px;
+		    -moz-border-bottom-left-radius:20px;
+			-webkit-border-bottom-left-radius:20px;
+		}
+		.specialleftcorners
+		{
+		   	border-top-left-radius:20px;
+		   	border-bottom-left-radius:20px;
+			-moz-border-top-left-radius:20px;
+			-webkit-border-top-left-radius:20px;
+			-moz-border-bottom-left-radius:20px;
+			-webkit-border-bottom-left-radius:20px;
+		}
+		.specialrightcorners
+		{
+		    border-top-right-radius:20px;
+		   	border-bottom-right-radius:20px;
+			-moz-border-top-right-radius:20px;
+			-webkit-border-top-right-radius:20px;
+			-moz-border-bottom-right-radius:20px;
+			-webkit-border-bottom-right-radius:20px;
+		}
+		
+		/* photos */
 		.pictextcenter
 		{
 		    font-family:"Times New Roman", Times, serif;
@@ -97,6 +199,8 @@
 		    font-style:italic;
 		    font-size:12px;
 		    text-align:left;
+		    padding-top:0;
+		    margin-left:0;
 		}
 		.pictextright
 		{
@@ -104,6 +208,7 @@
 		    font-style:italic;
 		    font-size:12px;
 		    text-align:right;
+		    padding-top:0;
 		}
 		.imgcenter
 		{
@@ -114,6 +219,8 @@
 		.imgleft
 		{
 		    margin-left:40px;
+		    height:50%;
+		    width:50%;
 		}
 		.imgright
 		{
@@ -147,28 +254,32 @@
 		nav
 		{
 		    margin-top:-60px;
+		    margin-bottom:20px;
+            margin-left:0;
 		}
 		nav li
 		{
+		    float:none;
 		    text-align:center;
-		    border:5px solid black;
-		    background-color:#FA6F0C;
-		    font-size:550%;
-		    font-weight:bold;
-		    padding:50px;
-		    margin-right:70px;
-		    margin-left:30px;
-		    margin-bottom:1px;
-			border-radius: 20px;
-			-moz-border-radius: 20px;
-			-webkit-border-radius: 20px;
+		    margin-bottom:5px;
+		    margin-left:5px;
+            margin-right:5px;
 		}
-		nav li a
-		{
-		    text-decoration:none;
+        nav li a
+        {
+            border:5px solid black;
+            display:inline-block;
+            background-color:#FA6F0C;
+            font-size:550%;
+            font-weight:bold;
+            padding-bottom:50px;
+            padding-top:50px;
+            padding-left:150px;
+            padding-right:150px;
+            text-decoration:none;
             text-transform: capitalize;
             color:black;
-		}
+        }
 		
 		/* MAIN */
 		main
@@ -186,10 +297,14 @@
 			-webkit-border-radius: 20px;
 			background-color:#FA6F0C;
 		}
-		article h3, h4
+		article h3
 		{
 		    padding-left:40px;
 		}
+		article h4
+        {
+             padding-left:20px;
+        }
 		article p
 		{
 		    font-size:15px;

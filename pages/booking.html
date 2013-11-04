@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="../css/mobile.css" />
         <link rel="stylesheet" href="../css/print.css" media="print" />
         
-        <link rel="icon" type="image/x-icon" href="../css/pics/loggan.png" />
-        <link rel="apple-touch-icon" href="../css/pics/loggan.png"/>
+        <link rel="icon" type="image/x-icon" href="../css/csspics/pengfav.png" />
+        <link rel="apple-touch-icon" href="../css/pics/pengfav.png"/>
     </head>
     
     <body>
@@ -20,11 +20,11 @@
             <nav>
                 <!--Navigationlist with links to the other subpages-->
                 <ul>
-                    <li><a id="home" href="../index.html">Home</a></li>
-                    <li><a id="about" href="about.html">About us</a></li>
-                    <li><a id="activities" href="activities.html">Activities</a></li>
-                    <li><a id="booking" href="booking.html" class="active">Booking</a></li>
-                    <li><a id="contact" href="contact.html">Contact</a></li>
+                    <li><a class="corners" id="home" href="../index.html">Home</a></li>
+                    <li><a class="corners" id="about" href="about.html">About us</a></li>
+                    <li><a class="corners" id="activities" href="activities.html">Activities</a></li>
+                    <li><a class="corners" id="booking" href="booking.html">Booking</a></li>
+                    <li><a class="corners" id="contact" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             
@@ -42,14 +42,14 @@
                     <table>
                         <thead>
                         <tr>
-                            <th>Tour</th>
-                            <th>Adult Price</th>
-                            <th>Child</th>
+                            <th class="specialleftcorners">Tour</th>
+                            <th>Adult</th>
+                            <th class="specialrightcorners">Child</th>
                         </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <td colspan="3">2013's tours &amp; prices.</td>
+                                <td class="corners" colspan="3">2013's tours &amp; prices.</td>
                             </tr>
                         </tfoot>
                         <tbody>
@@ -75,14 +75,14 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>Activity</th>
-                                <th>Adult Price</th>
-                                <th>Child</th>
+                                <th class="specialleftcorners">Activity</th>
+                                <th>Adult</th>
+                                <th class="specialrightcorners">Child</th>
                             </tr>
                         </thead>
                         <tfoot>
                             <tr>
-                                <td colspan="3">2013's activities &amp; prices.</td>
+                                <td  class="corners" colspan="3">2013's activities &amp; prices.</td>
                             </tr>
                         </tfoot>
                         <tbody>
@@ -121,21 +121,21 @@
                     <h4>Here you can book a tour/activity even before arriving at our park! Just fill out the form and we will confirm your order</h4>
                 
                     <!--Form: Booking-->
-                    <form method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
-                        <fieldset>
-                            <legend>Booking</legend>
+                    <form class="corners" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+                        <fieldset class="backgroundcolor corners">
+                            <legend id="firstlegend" class="corners">Booking</legend>
                             
-                            <div class="drop">Tours: 
-                                <select class="dropdownlist" name="tours">
+                            <div class="drop topcorners"> 
+                                <select class="dropdownlist corners" name="tours">
                                     <option>--Choose a tour--</option>
                                     <option>Antarctic Penguins!</option>
                                     <option>Hot Penguins!</option>
-                                    <option>Penguins &amp; Polar Bears, who would have thought!?</option>
+                                    <option>Penguins &amp; Polar Bears</option>
                                 </select>
                             </div>
                             
-                            <div class="drop">Activities: 
-                                <select class="dropdownlist" name="activities">
+                            <div class="drop"> 
+                                <select class="dropdownlist corners" name="activities">
                                     <option>--Choose an activity--</option>
                                     <option>Attraction-pass</option>
                                     <option>Day-pass</option>
@@ -146,7 +146,7 @@
                             </div>
                             
                             <div class="drop">Number of adults:
-                                <select class="dropdownlist" name="adults">
+                                <select class="dropdownlist corners" name="adults">
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -162,8 +162,8 @@
                                 </select>
                             </div>
                             
-                            <div>Number of children:
-                                <select class="dropdownlist" name="children">
+                            <div class="drop bottomcorners">Number of children:
+                                <select class="dropdownlist corners" name="children">
                                     <option>0</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -180,23 +180,25 @@
                             </div>
                                 
                             <fieldset>
-                                <legend>Customer information</legend>
+                                <legend id="secondlegend" class="corners">Customer information</legend>
                                 
-                                <p>Prefix:
-                                    <select class="dropdownlist" name="prefix">
+                                <div class="drop corners" >
+                                    <select class="dropdownlist corners" name="prefix">
                                         <option>Mr.</option>
                                         <option>Mrs.</option>
                                         <option>Ms.</option>
                                     </select>
-                                </p>
+                                </div>
                                 
-                                <p>Full name: <input type="text" class="formInputText" name="fullname" value="Last name, Surname"/></p>
-                                <p>E-mail address: <input type="text" class="formInputText" name="e-mail" value="Your e-mail address"/></p>
-                                <p>Message: <textarea class="textarea" name="Meddelande">Please type any eventual message here</textarea></p>
+                                <div id="textfields">
+                                    <p>Full name: <input type="text" class="formInputText" name="fullname" value="Last name, Surname"/></p>
+                                    <p>E-mail address: <input type="text" class="formInputText" name="e-mail" value="Your e-mail address"/></p>
+                                    <p>Message: <textarea class="textarea" name="Meddelande">Please type any eventual message here</textarea></p>
+                                </div>
                                 
                             </fieldset>
                         
-                            <input id="button" class="formInputButton" type="submit" value="Confirm booking" />
+                            <input id="button" class="formInputButton corners" type="submit" value="Confirm Booking" />
                         </fieldset>
                     </form>
                 </article>
