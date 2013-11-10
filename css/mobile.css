@@ -106,6 +106,10 @@
 		/* CLASSES */
 		
 		/* generic classes */
+		.active
+        {
+            background-color:antiquewhite;
+        }
 		.backgroundcolor
 		{
 		    background-color:#EDF3F5;

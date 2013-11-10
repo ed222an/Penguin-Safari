@@ -99,6 +99,11 @@ tr:nth-child(even)
 /* CLASSES */
 
 /* generic classes */
+.active
+{
+    background-color:antiquewhite;
+}
+
 .backgroundcolor
 {
     background-color:#EDF3F5;
